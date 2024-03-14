@@ -30,7 +30,7 @@ void input() {
 	}
 }
 
-void insetionsort() {
+void insertionsort() {
 
 	int temp;
 	int i, j;
@@ -68,7 +68,10 @@ void display() {
 	}
 	cout << endl;
 }
+
 int main()
 {
-
+	input();
+	insertionsort();
+	display();
 }
